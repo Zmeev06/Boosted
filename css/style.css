@@ -14,7 +14,6 @@ body {
     background-color: #000000;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -422,4 +421,217 @@ footer {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
     margin-bottom: 15px;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 500px) {
+    body {
+        max-width: 100%;
+    }
+    .navItem a {
+        font-size: 15px;
+    }
+    nav { 
+        display: none;
+    }
+    
+    .headerBtn {
+        flex-direction: column;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .headerBtn a {
+        width: 100px;
+        height: 20px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        font-size: 8px;
+        
+    }
+
+    .top {
+        font-size: 10px;
+    }
+
+    .mainBlock {
+        background-attachment: scroll;
+        height: 300px;
+        width: auto;
+    }
+
+    .mainText {
+        font-size: 20px;
+    }
+
+    .secondaryText {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .headerText {
+        padding-top: 20px;
+    }
+
+    .partnersImg {
+        max-width: 80%;
+    }
+
+    .partners {
+        height: 50px;
+        width: auto;
+    }
+
+    .partners img {
+        width: 50px;
+        height: auto;
+    }
+
+    .block3 {
+        margin-top: 30px;
+    }
+
+    .block3Head {
+        font-size: 20px;
+    }
+
+    .block3Text p{
+        font-size: 10px;
+        width: 250px;
+    }
+
+    .block3Text hr {
+        width: 30px;
+    }
+
+    .block3Content {
+        flex-direction: column;
+    }
+
+    .block3Content1 {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .block3Content2 {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .light {
+        width: 20px;
+    }
+
+    .shop {
+        font-size: 15px;
+    }
+
+    .stock {
+        font-size: 10px;
+    }
+
+    .block4 {
+        width: auto;
+        height: 300px;
+    }
+
+    .b4SecondaryText1, .b4SecondaryText2 {
+        font-size: 10px;
+        width: 200px;
+        text-align: center;
+        margin: 5px auto;
+    }
+
+
+    .block4Content h2 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .block4Content a {
+        width: 100px;
+        height: 20px;
+        margin: 0 auto;
+        margin-top: 10px;
+        font-size: 8px;
+        
+    }
+
+    .block4Content {
+        padding-top: 20px;
+    }
+
+    .block5 {
+        margin-top: 20px;
+    }
+
+    .b5content1 {
+        flex-direction: column;
+    }
+
+    .b5content1 img {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+
+    .b5text {
+        text-align: center;
+    }
+
+    .b5maintext {
+        font-size: 20px;
+    }
+
+    .b5stext {
+        width: 200px;
+        font-size: 15px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .b5text a {
+        margin: 0 auto;
+        margin-top: 15px
+    }
+
+    .b5content2 {
+        flex-direction: column;
+    }
+    .b5img1,.b5img2,.b5img3{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .footerContent {
+        width: auto;
+    }
+
+    .footerContent img {
+        width: 50px;
+        height: auto;
+    }
+
+    .footerText1 {
+        font-size: 20px;
+    }
+
+    .footerText2{
+        font-size: 15px;
+        padding-top: 10px;
+    }
 }
